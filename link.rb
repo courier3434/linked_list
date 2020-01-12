@@ -33,8 +33,7 @@ class Stack
     def push(value)
         @data = LinkedListNode.new(value, @data)
     end
-
-  return the value to the user
+    
     def pop
         return puts "nil" if @data.nil?
         @data = @data.next_node
